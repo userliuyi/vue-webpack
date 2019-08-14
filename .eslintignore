@@ -1,0 +1,5 @@
+node_modules/
+/build/
+/dist/
+mockServer/node_modules/
+/src/scss/icomoon/

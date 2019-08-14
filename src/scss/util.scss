@@ -1,0 +1,114 @@
+//css清除浮动,float属性会脱离文档流
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+//文本的样式
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+//设置文本的换行
+.text-break {
+    word-wrap: break-word; //允许长文本换行。
+    word-break: normal;  //使用浏览器默认的换行规则。
+}
+/* 
+.word-wrap:break-word;允许长文本换行。
+.word-break：
+属性值0:默认值,使用浏览器默认的换行规则。
+属性值1:break-all:允许在单词内换行
+属性值2:keep-all:只能在半角空格或连字符处换行 
+*/
+//组合属性实现“... ...
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+//字体
+.font-bold {
+    font-weight: bold !important;
+}
+.font-normal {
+    font-weight: normal !important;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+
+.margin-btm-10 {
+    margin-bottom: 10px !important;
+}
+.margin-btm-15 {
+    margin-bottom: 15px !important;
+}
+.margin-btm-20 {
+    margin-bottom: 20px !important;
+}
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+.margin-top-15 {
+    margin-top: 15px !important;
+}
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+.margin-left-10 {
+    margin-left: 10px !important;
+}
+.margin-right-10 {
+    margin-right: 10px !important;
+}
+.margin-right-15 {
+    margin-right: 15px !important;
+}
+.margin-right-20 {
+    margin-right: 20px !important;
+}
+
+.width-50px {
+    width: 50px;
+}
+.width-100px {
+    width: 100px;
+}
+.width-150px {
+    width: 150px;
+}
+.width-200px {
+    width: 200px;
+}
+

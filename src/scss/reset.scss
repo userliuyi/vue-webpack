@@ -1,0 +1,55 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reset scrollbar */
+::-webkit-scrollbar {
+    width:8px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:#7288aa;
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+
+
+body{
+    scrollbar-track-color: #25252f; /*立体滚动条背景颜色*/ 
+    scrollbar-base-color:#7288aa; /*滚动条的基色*/
+    scrollbar-arrow-color:#25252f;
+}
